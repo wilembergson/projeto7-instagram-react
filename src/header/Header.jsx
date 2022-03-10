@@ -1,4 +1,5 @@
 import "./Header.css"
+import Logo from "../arquivos/logo.png"
 export default function Header(){
     return (
         <header>
@@ -6,7 +7,7 @@ export default function Header(){
                 
                 <div class="barra-esquerda">
                     <ion-icon name="logo-instagram"></ion-icon>
-                    <img className="logo" src="../arquivos/logo.png" alt=""/>
+                    <img className="logo" src={Logo} alt=""/>
                 </div>
                 <input type="text" placeholder="Pesquisar" class="pesquisar"/>
                 <div class="barra-direita">
@@ -18,7 +19,7 @@ export default function Header(){
             </div>
             <div class="barra-interna-2">
                 <ion-icon name="logo-instagram"></ion-icon>
-                <img class="logo" src="../arquivos/logo.png" alt=""/>
+                <img class="logo" src={Logo} alt=""/>
                 <ion-icon name="paper-plane-outline"></ion-icon>
             </div>
         </header>

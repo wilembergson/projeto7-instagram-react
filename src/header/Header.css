@@ -48,3 +48,18 @@ ion-icon{
 .barra-interna-2{
     display: none;
 }
+
+@media (max-width: 613.9px){
+    .barra-interna{
+        display: none;
+    }
+    .barra-interna-2{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .logo{
+        padding-left: 10px;
+        border-left: none;
+    }
+}

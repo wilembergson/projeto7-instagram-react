@@ -1,3 +1,4 @@
+import Postagem from "../postagem/Postagem"
 import Story from "../story/Story"
 import "./Pagina.css"
 
@@ -18,113 +19,32 @@ export default function Pagina(){
                     <ion-icon class="seta-stories" name="chevron-forward-outline"></ion-icon>
                 </div>
 
-                <div class="postagem">
-                    <div class="postagem-barra-superior">
-                        <div class="direita">
-                            <div class="avatar-postagem">
-                                <img class="borda-postagem" src="arquivos/stories_background.jpg"/>
-                                <img class="foto-postagem" src="arquivos/icone-4.jpeg"/>
-                            </div>
-                            <div class="nome">meowed</div>
-                        </div>
-                        <div>
-                            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-                        </div>
-                    </div>
+                <Postagem 
+                    foto="arquivos/icone-4.jpeg" 
+                    nome="meowed"
+                    fotoPostagem="arquivos/postagem-1.jpg"
+                    quemCurtiu="arquivos/icone-6.jpeg"
+                    quemCurtiuNome="respondeai"
+                    numCurtidas="101.523"
+                />
 
-                    <img src="arquivos/postagem-1.jpg"/>
-                    <div class="postagem-barra-inferior">
-                        <div class="icones-postagem">
-                            <div>
-                                <ion-icon name="heart-outline"></ion-icon>
-                                <ion-icon name="chatbubble-outline"></ion-icon>
-                                <ion-icon name="paper-plane-outline"></ion-icon>
-                            </div>
-                            <ion-icon name="bookmark-outline"></ion-icon>
-                        </div>
-                        <div class="curtidas-postagem">
-                            <img class="imagem-curtidas" src="arquivos/icone-6.jpeg"/>
-                            <div class="texto-curtidas">curtido por <span>respondeai</span> e <span>outras 101.523 pessoas</span></div>
-                        </div>
-                        <div class="comentario">
-                            <ion-icon name="happy-outline"></ion-icon>
-                            <textarea class="barra-comentario" cols="30" rows="1"></textarea>
-                            <div class="publicar">Publicar</div>
-                        </div>
-                    </div>
-                </div>
+                <Postagem 
+                    foto="arquivos/icone-3.png" 
+                    nome="barked"
+                    fotoPostagem="arquivos/postagem-3.png"
+                    quemCurtiu="arquivos/icone-1.jpg"
+                    quemCurtiuNome="adorable_animals"
+                    numCurtidas="99.159"
+                />
 
-                <div class="postagem">
-                    <div class="postagem-barra-superior">
-                        <div class="direita">
-                            <div class="avatar-postagem">
-                                <img class="borda-postagem" src="arquivos/stories_background.jpg"/>
-                                <img class="foto-postagem" src="arquivos/icone-3.png"/>
-                            </div>
-                            <div class="nome">barked</div>
-                        </div>
-                        <div>
-                            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-                        </div>
-                    </div>
-
-                    <img src="arquivos/postagem-3.png"/>
-                    <div class="postagem-barra-inferior">
-                        <div class="icones-postagem">
-                            <div>
-                                <ion-icon name="heart-outline"></ion-icon>
-                                <ion-icon name="chatbubble-outline"></ion-icon>
-                                <ion-icon name="paper-plane-outline"></ion-icon>
-                            </div>
-                            <ion-icon name="bookmark-outline"></ion-icon>
-                        </div>
-                        <div class="curtidas-postagem">
-                            <img class="imagem-curtidas" src="arquivos/icone-1.jpg"/>
-                            <div class="texto-curtidas">curtido por <span>adorable_animals</span> e <span>outras 99.159 pessoas</span></div>
-                        </div>
-                        <div class="comentario">
-                            <ion-icon name="happy-outline"></ion-icon>
-                            <textarea class="barra-comentario" cols="30" rows="1"></textarea>
-                            <div class="publicar">Publicar</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="postagem">
-                    <div class="postagem-barra-superior">
-                        <div class="direita">
-                            <div class="avatar-postagem">
-                                <img class="borda-postagem" src="arquivos/stories_background.jpg"/>
-                                <img class="foto-postagem" src="arquivos/icone-4.jpeg"/>
-                            </div>
-                            <div class="nome">meowed</div>
-                        </div>
-                        <div>
-                            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-                        </div>
-                    </div>
-
-                    <img src="arquivos/postagem-2.png"/>
-                    <div class="postagem-barra-inferior">
-                        <div class="icones-postagem">
-                            <div>
-                                <ion-icon name="heart-outline"></ion-icon>
-                                <ion-icon name="chatbubble-outline"></ion-icon>
-                                <ion-icon name="paper-plane-outline"></ion-icon>
-                            </div>
-                            <ion-icon name="bookmark-outline"></ion-icon>
-                        </div>
-                        <div class="curtidas-postagem">
-                            <img class="imagem-curtidas" src="arquivos/icone-6.jpeg"/>
-                            <div class="texto-curtidas">curtido por <span>respondeai</span> e <span>outras 101.523 pessoas</span></div>
-                        </div>
-                        <div class="comentario">
-                            <ion-icon name="happy-outline"></ion-icon>
-                            <textarea class="barra-comentario" cols="30" rows="1"></textarea>
-                            <div class="publicar">Publicar</div>
-                        </div>
-                    </div>
-                </div>
+                <Postagem 
+                    foto="arquivos/icone-4.jpeg" 
+                    nome="meowed"
+                    fotoPostagem="arquivos/postagem-2.png"
+                    quemCurtiu="arquivos/icone-6.jpeg"
+                    quemCurtiuNome="respondeai"
+                    numCurtidas="81.112"
+                />
             </div>
             <div class="lado-secundario">
                 <div class="sidebar">

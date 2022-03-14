@@ -5,6 +5,7 @@ import "./Pagina.css"
 
 export default function Pagina(){
     return(
+    <>
     <div class="pagina">
         <div class="conteudo">
             <div class="lado-principal">
@@ -74,5 +75,17 @@ export default function Pagina(){
             </div>
         </div>
     </div>
+
+    <div class="barra-inferior">
+        <div>
+            <ion-icon name="home"></ion-icon>
+            <ion-icon name="search-outline"></ion-icon>
+            <ion-icon name="add-circle-outline"></ion-icon>
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="person-outline"></ion-icon>
+        </div>
+    </div>
+    </>
+    
     )
 }

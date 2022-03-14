@@ -1,3 +1,4 @@
+import LinhaSecundario2 from "../linhaSecundario2/LinhaSecundario2"
 import Postagem from "../postagem/Postagem"
 import Story from "../story/Story"
 import "./Pagina.css"
@@ -46,6 +47,7 @@ export default function Pagina(){
                     numCurtidas="81.112"
                 />
             </div>
+
             <div class="lado-secundario">
                 <div class="sidebar">
                     <div class="linha1-secundario">
@@ -59,67 +61,13 @@ export default function Pagina(){
                         <div class="sujestoes">Sujestões para você</div>
                         <div class="ver-tudo">Ver tudo</div>
                     </div>
-                    <div class="linha-secundario-2">
-                        <div class="ls2-1">
-                            <div>
-                                <img class="imagem-secundario" src="arquivos/secundario-2.jpeg"/>
-                            </div>
-                            <div class="n-secundario">
-                                <div class="n3-secundario">bad.vibes.memes</div>
-                                <div class="n4-secundario">Segue você</div>
-                            </div>
-                        </div>
-                        <div class="seguir">seguir</div>
-                    </div>
-                    <div class="linha-secundario-2">
-                        <div class="ls2-1">
-                            <div>
-                                <img class="imagem-secundario" src="arquivos/secundario-3.jpg"/>
-                            </div>
-                            <div class="n-secundario">
-                                <div class="n3-secundario">chibidart</div>
-                                <div class="n4-secundario">Segue você</div>
-                            </div>
-                        </div>
-                        <div class="seguir">seguir</div>
-                    </div>
-                    <div class="linha-secundario-2">
-                        <div class="ls2-1">
-                            <div>
-                                <img class="imagem-secundario" src="arquivos/secundario-4.jpg"/>
-                            </div>
-                            <div class="n-secundario">
-                                <div class="n3-secundario">razoesparaacreditar</div>
-                                <div class="n4-secundario">Segue você</div>
-                            </div>
-                        </div>
-                        <div class="seguir">seguir</div>
-                    </div>
-                    <div class="linha-secundario-2">
-                        <div class="ls2-1">
-                            <div>
-                                <img class="imagem-secundario" src="arquivos/secundario-5.jpg"/>
-                            </div>
-                            <div class="n-secundario">
-                                <div class="n3-secundario">adorable_animals</div>
-                                <div class="n4-secundario">Segue você</div>
-                            </div>
-                        </div>
-                        <div class="seguir">seguir</div>
-                    </div>
-                    <div class="linha-secundario-2">
-                        <div class="ls2-1">
-                            <div>
-                                <img class="imagem-secundario" src="arquivos/secundario-6.jpeg"/>
-                            </div>
-                            <div class="n-secundario">
-                                <div class="n3-secundario">smallcutecats</div>
-                                <div class="n4-secundario">Segue você</div>
-                            </div>
-                        </div>
-                        <div class="seguir">seguir</div>
-                    </div>
 
+                    <LinhaSecundario2 imagem="arquivos/secundario-2.jpeg" nome="bad.vibes.memes"/>
+                    <LinhaSecundario2 imagem="arquivos/secundario-3.jpg" nome="chibdart"/>
+                    <LinhaSecundario2 imagem="arquivos/secundario-4.jpg" nome="razoesparaacreditar"/>
+                    <LinhaSecundario2 imagem="arquivos/secundario-5.jpg" nome="adorable_animals"/>
+                    <LinhaSecundario2 imagem="arquivos/secundario-6.jpeg" nome="smallcutecats"/>
+                    
                     <div class="topicos-secundario">Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma</div>
                     <div class="topicos-2-secundario">© 2021 INSTAGRAM DO FACEBOOK</div>
                 </div>

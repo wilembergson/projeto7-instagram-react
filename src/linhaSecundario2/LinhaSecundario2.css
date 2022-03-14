@@ -1,0 +1,30 @@
+.linha-secundario-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+.ls2-1{
+    display: flex;
+}
+.imagem-secundario{
+    width: 32px;
+    border-radius: 50%;
+    bottom: 0;
+}
+.n-secundario{
+    margin-left: 10px;
+    padding-top: 0;
+}
+.n3-secundario{
+    font-size: 14px;
+    font-weight: bold;
+}
+.n4-secundario{
+    font-size: 12px;
+    color: #8E8E8E;
+}
+.seguir{
+    font-size: 12px;
+    color: #139EF2;
+    margin-top: 12px;
+}

@@ -1,3 +1,5 @@
+import "./Postagem.css"
+
 export default function Postagem(props){
     return(
         <div class="postagem">
